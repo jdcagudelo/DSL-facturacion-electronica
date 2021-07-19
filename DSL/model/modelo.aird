@@ -4,7 +4,7 @@
     <semanticResources>modelo.ecore</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_DsqFgOBJEeusLIVGeROILg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_GaKNkOBJEeusLIVGeROILg" name=" class diagram" repPath="#_GZ8LIOBJEeusLIVGeROILg" changeId="08c0b1b8-18b7-4e16-8a31-e10caddaa8b3">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_GaKNkOBJEeusLIVGeROILg" name=" class diagram" repPath="#_GZ8LIOBJEeusLIVGeROILg" changeId="48cc553a-b5cd-4afe-b575-4658f95fa4ca">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="modelo.ecore#/"/>
       </ownedRepresentationDescriptors>
@@ -211,9 +211,9 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_OF_34OBJEeusLIVGeROILg" name="Categoria" tooltipText="" outgoingEdges="_2xVpIOBJEeusLIVGeROILg _fd3QsOBLEeusLIVGeROILg" incomingEdges="_uMUUEOBJEeusLIVGeROILg _2xVpIOBJEeusLIVGeROILg" width="12" height="10">
-      <target xmi:type="ecore:EClass" href="modelo.ecore#//Categoria"/>
-      <semanticElements xmi:type="ecore:EClass" href="modelo.ecore#//Categoria"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_OF_34OBJEeusLIVGeROILg" name="Categorias" tooltipText="" outgoingEdges="_2xVpIOBJEeusLIVGeROILg _fd3QsOBLEeusLIVGeROILg" incomingEdges="_uMUUEOBJEeusLIVGeROILg _2xVpIOBJEeusLIVGeROILg" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="modelo.ecore#//Categorias"/>
+      <semanticElements xmi:type="ecore:EClass" href="modelo.ecore#//Categorias"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -222,8 +222,8 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_5qxNAOBMEeusLIVGeROILg" name="NombreCategoria : EString" tooltipText="">
-        <target xmi:type="ecore:EAttribute" href="modelo.ecore#//Categoria/NombreCategoria"/>
-        <semanticElements xmi:type="ecore:EAttribute" href="modelo.ecore#//Categoria/NombreCategoria"/>
+        <target xmi:type="ecore:EAttribute" href="modelo.ecore#//Categorias/NombreCategoria"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="modelo.ecore#//Categorias/NombreCategoria"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_clGJEeUHEeu9foDpv7CyGw" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
@@ -242,8 +242,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_2xVpIOBJEeusLIVGeROILg" name="[0..*] categoria" sourceNode="_OF_34OBJEeusLIVGeROILg" targetNode="_OF_34OBJEeusLIVGeROILg">
-      <target xmi:type="ecore:EReference" href="modelo.ecore#//Categoria/categoria"/>
-      <semanticElements xmi:type="ecore:EReference" href="modelo.ecore#//Categoria/categoria"/>
+      <target xmi:type="ecore:EReference" href="modelo.ecore#//Categorias/categoria"/>
+      <semanticElements xmi:type="ecore:EReference" href="modelo.ecore#//Categorias/categoria"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_2xWQMOBJEeusLIVGeROILg" description="_uMViMOBJEeusLIVGeROILg" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_2xWQMuBJEeusLIVGeROILg" showIcon="false">
           <customFeatures>labelSize</customFeatures>
@@ -330,8 +330,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_fd3QsOBLEeusLIVGeROILg" name="[1..*] campo" sourceNode="_OF_34OBJEeusLIVGeROILg" targetNode="_25EzYOBKEeusLIVGeROILg">
-      <target xmi:type="ecore:EReference" href="modelo.ecore#//Categoria/campo"/>
-      <semanticElements xmi:type="ecore:EReference" href="modelo.ecore#//Categoria/campo"/>
+      <target xmi:type="ecore:EReference" href="modelo.ecore#//Categorias/campo"/>
+      <semanticElements xmi:type="ecore:EReference" href="modelo.ecore#//Categorias/campo"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_jps_AOBLEeusLIVGeROILg" description="_m5UyIOBKEeusLIVGeROILg" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_jps_AuBLEeusLIVGeROILg" showIcon="false">
           <labelFormat>bold</labelFormat>

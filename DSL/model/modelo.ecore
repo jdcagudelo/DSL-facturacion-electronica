@@ -3,11 +3,11 @@
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="fact">
   <eClassifiers xsi:type="ecore:EClass" name="Factura">
     <eStructuralFeatures xsi:type="ecore:EReference" name="categoria" lowerBound="1"
-        upperBound="-1" eType="#//Categoria" containment="true"/>
+        upperBound="-1" eType="#//Categorias" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Categoria">
+  <eClassifiers xsi:type="ecore:EClass" name="Categorias">
     <eStructuralFeatures xsi:type="ecore:EReference" name="categoria" upperBound="-1"
-        eType="#//Categoria" containment="true"/>
+        eType="#//Categorias" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="campo" lowerBound="1" upperBound="-1"
         eType="#//Campo" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="NombreCategoria" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
