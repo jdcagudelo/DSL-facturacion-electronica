@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="fact">
+  <eClassifiers xsi:type="ecore:EClass" name="Factura">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="categoria" lowerBound="1"
+        upperBound="-1" eType="#//Categoria" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Categoria">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="categoria" upperBound="-1"
+        eType="#//Categoria" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="campo" lowerBound="1" upperBound="-1"
+        eType="#//Campo" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="NombreCategoria" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Campo">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="formato" lowerBound="1"
+        eType="#//Formato" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tipodato" lowerBound="1"
+        eType="#//TipoDato" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="NombreCampo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ID modelDian"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Formato">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Longitud" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TipoDato"/>
+</ecore:EPackage>
